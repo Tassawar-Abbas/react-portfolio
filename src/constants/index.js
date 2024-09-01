@@ -38,6 +38,7 @@ import {
   AiFillHtml5,
   AiOutlineGitlab,
 } from "react-icons/ai";
+import { TbBrandReactNative,TbBrandNextjs  } from "react-icons/tb";
 
 import {
   SiDjango,
@@ -72,12 +73,17 @@ import {
   SiOpenai,
   SiGooglecloud,
   SiNextdotjs,
-  SiMicrosoftazure
+  SiMicrosoftazure,
+  SiMui,
+  SiTypescript,
+  SiExpress,
+  SiMongodb,
 } from "react-icons/si";
 
 import {
   FaHardHat,
-  FaRust
+  FaAws,
+  FaNodeJs,
 } from "react-icons/fa";
 
 import {
@@ -129,20 +135,15 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: nitk,
-    title: "National Institute of Technology Karnataka, Surathkal",
-    degree: "Bachelor of Technology",
-    duration: "December 2020 - May 2024",
-    content1: "Major: Electronics and Communication Engineering",
-    content2: "Minor: Information Technology",
+    title: "Comsats University",
+    degree: "Bachelor of Science in Software Engineering",
+    duration: "August 2015 - June 2019",
   },
   {
     id: "education-2",
-    icon: pba,
-    title: "Polkadot Blockchain Academy",
+    title: "Asp.net web development",
     degree: "",
-    duration: "May 2024 - June 2024",
-    content1: "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
+    duration: "May 2018 - August 2018",
   },
 ];
 
@@ -229,59 +230,29 @@ export const skills = [
     items: [
       {
         id: "pl-1",
-        icon: DiRuby,
-        name: "Ruby",
-      },
-      {
-        id: "pl-2",
-        icon: SiPython,
-        name: "Python",
-      },
-      {
-        id: "pl-3",
         icon: SiCplusplus,
         name: "C++",
       },
       {
-        id: "pl-4",
-        icon: FaGolang,
-        name: "Go",
-      },
-      {
-        id: "pl-5",
-        icon: FaRust,
-        name: "Rust",
-      },
-      {
-        id: "pl-6",
-        icon: DiJava,
-        name: "Java",
-      },
-      {
-        id: "pl-7",
-        icon: SiC,
-        name: "C",
-      },
-      {
-        id: "pl-8",
+        id: "pl-2",
         icon: AiFillHtml5,
         name: "HTML",
       },
       {
-        id: "pl-9",
+        id: "pl-3",
         icon: DiCss3,
         name: "CSS",
       },
       {
-        id: "pl-10",
+        id: "pl-4",
         icon: SiJavascript,
         name: "JavaScript",
       },
       {
-        id: "pl-11",
-        icon: SiSolidity,
-        name: "Solidity",
-      }
+        id: "pl-4",
+        icon: SiTypescript ,
+        name: "TypeScript",
+      },
     ],
   },
   {
@@ -289,41 +260,51 @@ export const skills = [
     items: [
       {
         id: "f-1",
-        icon: SiDjango,
-        name: "Django",
+        icon: SiReact,
+        name: "React J's",
       },
       {
         id: "f-2",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
+        icon: TbBrandNextjs,
+        name: "Next J's",
       },
       {
         id: "f-3",
-        icon: SiReact,
-        name: "ReactJS",
+        icon: TbBrandReactNative ,
+        name: "React Native",
       },
       {
         id: "f-4",
+        icon: FaNodeJs ,
+        name: "Node J's",
+      },
+      {
+        id: "f-5",
+        icon: SiExpress  ,
+        name: "Express J's",
+      },
+      {
+        id: "f-6",
         icon: SiBootstrap,
         name: "Bootstrap",
       },
       {
-        id: "f-5",
+        id: "f-7",
+        icon: SiMui,
+        name: "Material UI",
+      },
+      {
+        id: "f-8",
         icon: SiTailwindcss,
         name: "Tailwind CSS",
       },
       {
-        id: "f-6",
+        id: "f-9",
         icon: SiJquery,
         name: "jQuery",
       },
       {
-        id: "f-7",
-        icon: SiGraphql,
-        name: "GraphQL",
-      },
-      {
-        id: "f-8",
+        id: "f-10",
         icon: SiDotnet,
         name: ".NET",
       },
@@ -334,8 +315,8 @@ export const skills = [
     items: [
       {
         id: "t-1",
-        icon: SiMicrosoftazure,
-        name: "Azure",
+        icon: FaAws ,
+        name: "AWS",
       },
       {
         id: "t-2",
@@ -377,112 +358,56 @@ export const skills = [
         icon: SiVite,
         name: "ViteJS",
       },
+      {
+        id: "t-10",
+        icon: SiMongodb,
+        name: "Mongodb",
+      },
     ],
   },
 ];
 
 export const experiences = [
   {
-    organisation: "Oracle, India",
-    logo: oracle,
-    link: "https://www.oracle.com/in/",
+    organisation: "Nester Sky",
     positions: [
       {
-        title: "Member of Technical Staff - 1",
-        duration: "Jul 2024 - Present",
-        content: [
-          {
-            text: "Working in the DBaaS Control Plane team in the Database Unit.",
-            link: "",
-          },
-        ],
+        title: ".Net developer",
+        duration: "May 2020 - January 2021",
       },
+    
+    ],
+  },
+  {
+    organisation: "Phenologix",
+    positions: [
       {
-        title: "Member of Technical Staff Intern",
-        duration: "May 2023 - Jul 2023",
-        content: [
-          {
-            text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
-            link: "",
-          },
-          {
-            text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
-            link: ""
-          }
-        ],
+        title: "Software Engineer",
+        duration: "Febraury 2021 -  January 2022",
+       
       },
     ],
   },
   {
-    organisation: "Averlon",
-    logo: averlon,
-    link: "https://averlon.ai/",
+    organisation: "QMH Technology",
     positions: [
       {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
-        content: [
-          {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
-            link: ""
-          },
-          {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
-            link: ""
-          }
-        ],
+        title: "Front End Developer",
+        duration: "June 2022 - Febraury 2023",
+      
       },
+      
     ],
   },
   {
-    organisation: "IRIS, NITK",
-    logo: iris,
-    link: "https://iris.nitk.ac.in/about_us",
+    organisation: "Zonic Solutions",
     positions: [
       {
-        title: "Tech Lead",
-        duration: "Apr 2023 - Apr 2024",
-        content: [
-          {
-            text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
-            link: "",
-          },
-          {
-            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
-            link: "",
-          },
-        ],
+        title: "Senior MERN Stack Engineer (Team Lead) ",
+        duration: "Febraury 2023 - Present",
+      
       },
-      {
-        title: "Web Lead",
-        duration: "Apr 2022 - Present",
-        content: [
-          {
-            text: "Managing a team of 6 student developers while also overlooking multiple modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer",
-        duration: "Nov 2021 - Apr 2022",
-        content: [
-          {
-            text: "Added Conditional Fields support to the Forms Module.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer Intern",
-        duration: "Jun 2021 - Oct 2021",
-        content: [
-          {
-            text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
-            link: "",
-          },
-        ],
-      },
+      
     ],
   }
 ];
@@ -1226,7 +1151,7 @@ export const socialMedia = [
 ];
 
 export const aboutMe = {
-    name: "Parth Mittal",
+    name: "Tassawar Abbas",
     tagLine: "MTS-1 @Oracle | ex-SDE Intern @Averlon | ex-Tech Lead @IRIS,NITK | ETHIndia'22 Winner | NITK'24",
-    intro: "Software Developer from India who is either busy improving his craft or pondering over the next big idea."
+    intro: "Experienced Senior MERN Stack Engineer with a proven track record in developing scalable and high-performance web and mobile applications. Proficient in MongoDB, Express, React, and Node.js, delivering solutions that drive business success."
 }

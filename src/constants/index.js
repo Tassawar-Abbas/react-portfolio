@@ -96,10 +96,9 @@ import {
 
 import { DiCss3, DiJava, DiMongodb, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
-export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
+export const repoLink = "https://github.com/Tassawar-Abbas/react-portfolio";
 
-export const callToAction = "https://www.linkedin.com/in/mittal-parth";
+export const callToAction = "https://www.linkedin.com/in/tassawar-abbas-565bb6191/";
 
 export const navLinks = [
   {
@@ -110,22 +109,22 @@ export const navLinks = [
     id: "education",
     title: "Education",
   },
-  {
-    id: "achievements",
-    title: "Achievements",
-  },
+  // {
+  //   id: "achievements",
+  //   title: "Achievements",
+  // },
   {
     id: "projects",
     title: "Projects",
   },
-  {
-    id: "openSource",
-    title: "Open Source",
-  },
-  {
-    id: "extraCurricular",
-    title: "Extra Curricular",
-  },
+  // {
+  //   id: "openSource",
+  //   title: "Open Source",
+  // },
+  // {
+  //   id: "extraCurricular",
+  //   title: "Extra Curricular",
+  // },
   {
     id: "contactMe",
     title: "Contact Me",
@@ -1086,32 +1085,23 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/mittal-parth",
+    link: "https://www.linkedin.com/in/tassawar-abbas-565bb6191/",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/mittal-parth",
+    link: "https://github.com/Tassawar-Abbas",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:mittalparth22@gmail.com",
+    link: "mailto:tas80066@gmail.com.com",
   },
-  {
-    id: "social-media-4",
-    icon: AiOutlineTwitter,
-    link: "https://www.twitter.com/mittalparth_",
-  },
-  {
-    id: "social-media-5",
-    icon: AiFillInstagram,
-    link: "https://www.instagram.com/mittalparth_",
-  },
+ 
 ];
 
 export const aboutMe = {
     name: "Tassawar Abbas",
-    tagLine: "MTS-1 @Oracle | ex-SDE Intern @Averlon | ex-Tech Lead @IRIS,NITK | ETHIndia'22 Winner | NITK'24",
+    tagLine: "+92 3249274607 | tas80066@gmail.com",
     intro: "Experienced Senior MERN Stack Engineer with a proven track record in developing scalable and high-performance web and mobile applications. Proficient in MongoDB, Express, React, and Node.js, delivering solutions that drive business success."
 }

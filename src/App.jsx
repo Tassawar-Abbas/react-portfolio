@@ -60,9 +60,6 @@ const App = () => {
         <div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
           <div className={`${styles.boxWidth}`}>
             <Projects />
-            <BlogPosts enabled={false} />
-            <OpenSource />
-            <ExtraCurricular />
           </div>
         </div>
         <Footer />

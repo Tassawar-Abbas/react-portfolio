@@ -3,8 +3,9 @@ import Button from "./Button";
 import { socialMedia, aboutMe } from "../constants";
 import { profilePic } from "../assets";
 import { layout } from "../style";
-import { resumeLink, repoLink } from "../constants";
+import { repoLink } from "../constants";
 import { AiFillGithub } from "react-icons/ai";
+import resumeLink from "../assets/Tassawar-Resume.pdf";
 
 const Footer = () => (
   <footer id="contactMe" className="bg-gray-900 sm:px-16 px-6">
@@ -59,7 +60,7 @@ const Footer = () => (
     </div>
     <div className="text-center font-poppins font-normal text-dimWhite text-xs sm:text-sm pb-4">
       <p>
-        Made with 💙 by Parth Mittal & the Open Source Community
+        Made with 💙 by Tassawar Abbas
       </p>
     </div>
   </footer>
